@@ -15,7 +15,7 @@
 <h1>Index</h1>  
 <a href="adduserform.jsp">Add User</a>  
 <a href="viewusers.jsp">View Users</a>  
-  
+  <h3>Ini adalah peti simpanan data. </h3>  
 </body>  
 </html>  
 
