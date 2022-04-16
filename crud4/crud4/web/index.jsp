@@ -10,6 +10,7 @@
 <head>  
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">  
 <title>JSP CRUD Example</title>  
+    <h1>This is the index page</h1>
 </head>  
 <body>  
 <h1>Index</h1>  
