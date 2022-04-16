@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>USER FORM</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+        
+        .box{
+        padding-left: 30px;
+	margin-left: 300px;
+	left: 90px;
+	right: 90px;
+        margin-top: 20px;
+        min-width: 50px;
+        background-color: #FFFFFF;
+        display: block;
+        -webkit-box-sizing: content-box;
+        -moz-box-sizing: content-box;
+        box-sizing: content-box;
+        max-height: 800px;
+        max-width: 400px;
+        border-style: outset;
+        height: 350px;
+
+                }
+            
+        
+                
+            .b{
+	     background-image: linear-gradient(to right,#ccccff,#cce6ff,#ffcccc);
+		}
+                
+            .t{
+            background-color:cornsilk;
+            position:absolute;
+            top: 200px;
+            left: 10px;
+            width: 150px;
+            height: 140px;
+
+            background-position: 0% 20%;
+            background-size: cover;
+    }
+  
+        </style>
+    
+    </head>
+    
+    
+    
+    <body class="b">
+        
+        <div class="t">  
+<ul>
+            <li><a href="adduserform.jsp">Apply Leave</a></li>
+            <li><a href="viewusers.jsp">History Leave</a></li>
+            <li><a href="profileemployee.jsp">Profile</a></li>
+            <li><a href="loginemployee.jsp">Logout</a></li>
+        </ul>
+</div>
+          
+        <div class="box">
+<h1>Leave Form</h1>  
+<form action="adduser.jsp" method="post">  
+<table>  
+<tr><td>Name:</td><td><input type="text" name="name"/></td></tr>  
+<tr><td>Employee Id:</td><td>  
+<input type="text" name="password"/></td></tr>  
+<tr><td>From Date:</td><td><input type="date" name="email"/></td></tr>  
+<tr><td>To Date:</td><td>  
+<input type="date" name="sex" />  
+ </td></tr>  
+<tr><td>Leave Type:</td><td>  
+<select name="country" style="width:155px">  
+<option>Casual Leave</option>  
+<option>Medical Leave</option>  
+<option>Emergency Leave</option>   
+</select>  
+</td></tr>  
+<tr><td colspan="2"><input type="submit" value="Apply"/></td></tr>  
+</table>  
+</form>  
+</div>
+    </body>
+</html>
